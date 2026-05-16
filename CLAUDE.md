@@ -4,12 +4,27 @@
 
 Repositorio de actividades para un **curso de Inteligencia Artificial** usando Google Colab y Claude Desktop. Las actividades se entregan como notebooks `.ipynb` listos para ejecutar celda a celda.
 
-## Archivos del proyecto
+## Convención de actividades
 
-| Archivo | Descripción |
+Cada actividad vive en su propia carpeta dentro de `actividades/`:
+
+```
+actividades/
+└── NN-nombre-descriptivo/
+    ├── NombreNotebook.ipynb   ← notebook listo para ejecutar en Colab
+    └── README.md              ← descripción de la actividad
+```
+
+- Las carpetas se numeran con prefijo de dos dígitos (`01-`, `02-`, ...)
+- El `README.md` de cada actividad debe incluir: **objetivo de aprendizaje, prerrequisitos, stack tecnológico e instrucciones de ejecución**
+- Nunca colocar notebooks sueltos en la raíz del repositorio
+
+## Actividades del proyecto
+
+| Carpeta | Descripción |
 |---|---|
-| `OllamaColab.ipynb` | Notebook para correr modelos locales con Ollama en Colab |
-| `WebSearchRAG.ipynb` | Notebook de RAG con búsqueda web |
+| `actividades/01-ollama-rag/` | LLMs locales con Ollama + RAG con LangChain |
+| `actividades/02-web-search-rag/` | RAG multi-agente con búsqueda web y Gradio |
 
 ## Principio de diseño
 
