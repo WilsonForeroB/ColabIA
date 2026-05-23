@@ -43,3 +43,4 @@ Todas las actividades siguen la filosofía documentada en `.claude/commands/dise
 ## Skills disponibles
 
 - `/diseno-actividades` — filosofía y checklist para diseñar nuevas actividades
+- `/pull-request` — crea PRs hacia `develop` con formato Conventional Commits; pide confirmación antes de ejecutar
