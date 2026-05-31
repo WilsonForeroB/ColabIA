@@ -21,6 +21,17 @@
             "statusMessage": "Validando notebooks .ipynb..."
           }
         ]
+      },
+      {
+        "matcher": "Read|Edit|Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash /home/user/ColabIA/scripts/validate_sensitive_files.sh",
+            "timeout": 10,
+            "statusMessage": "Verificando acceso a archivo sensible..."
+          }
+        ]
       }
     ]
   }
