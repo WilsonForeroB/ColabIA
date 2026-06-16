@@ -246,3 +246,8 @@ async def chat(req: ChatRequest):
         return {"response": BLOCK_MESSAGE, "mode": MODE, "blocked": True}
 
     return {"response": answer, "mode": MODE, "blocked": False}
+
+
+if __name__ == "__main__":
+    import uvicorn
+    uvicorn.run("secure:app", host="0.0.0.0", port=8000, reload=True)

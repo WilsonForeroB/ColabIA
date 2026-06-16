@@ -104,7 +104,7 @@ cp .env.example .env
 ### Paso 3 — Arrancar el backend VULNERABLE
 
 ```bash
-uvicorn main:app --reload --port 8000
+python main.py
 ```
 
 Comprueba que responde:
@@ -169,7 +169,7 @@ Impleméntalas siguiendo las pistas del propio fichero:
 Detén `main.py` (Ctrl+C) y arranca el backend seguro:
 
 ```bash
-uvicorn secure:app --reload --port 8000
+python secure.py
 ```
 
 Recarga el frontend: el badge ahora es **● SEGURO** en verde. Repite **los
