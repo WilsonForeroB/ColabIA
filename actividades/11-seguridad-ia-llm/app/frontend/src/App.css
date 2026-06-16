@@ -1,0 +1,145 @@
+/* Estilos de la actividad 11. Sin frameworks: CSS plano y legible. */
+
+:root {
+  --bg: #0f172a;
+  --card: #1e293b;
+  --text: #e2e8f0;
+  --muted: #94a3b8;
+  --accent: #6366f1;
+  --danger: #ef4444;
+  --success: #22c55e;
+  --warning: #f59e0b;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+}
+
+.app { max-width: 1200px; margin: 0 auto; padding: 1.5rem; }
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+}
+.header h1 { font-size: 1.4rem; margin: 0; }
+
+/* Badge de modo */
+.badge {
+  padding: 0.35rem 0.8rem;
+  border-radius: 999px;
+  font-weight: 700;
+  font-size: 0.85rem;
+}
+.badge-vulnerable { background: rgba(239, 68, 68, 0.15); color: var(--danger); border: 1px solid var(--danger); }
+.badge-secure { background: rgba(34, 197, 94, 0.15); color: var(--success); border: 1px solid var(--success); }
+
+.config-bar {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  font-size: 0.85rem;
+  color: var(--muted);
+  margin-bottom: 1rem;
+}
+.config-bar code { color: var(--text); background: var(--card); padding: 0.15rem 0.4rem; border-radius: 4px; }
+
+/* Layout de dos columnas */
+.grid { display: grid; grid-template-columns: 1.6fr 1fr; gap: 1rem; }
+@media (max-width: 860px) { .grid { grid-template-columns: 1fr; } }
+
+.card {
+  background: var(--card);
+  border-radius: 12px;
+  padding: 1rem 1.2rem;
+  margin-bottom: 1rem;
+}
+.card h2 { font-size: 1.05rem; margin: 0 0 0.8rem; }
+
+/* Entrada */
+.textarea {
+  width: 100%;
+  background: var(--bg);
+  color: var(--text);
+  border: 1px solid #334155;
+  border-radius: 8px;
+  padding: 0.7rem;
+  font-size: 0.95rem;
+  resize: vertical;
+}
+.file-row { display: flex; align-items: center; gap: 0.8rem; margin-top: 0.8rem; flex-wrap: wrap; }
+.file-label {
+  cursor: pointer;
+  color: var(--accent);
+  border: 1px dashed var(--accent);
+  padding: 0.4rem 0.8rem;
+  border-radius: 8px;
+  font-size: 0.85rem;
+}
+.file-name { font-size: 0.85rem; color: var(--muted); }
+.link { background: none; border: none; color: var(--danger); cursor: pointer; }
+
+.btn-primary {
+  margin-left: auto;
+  background: var(--accent);
+  color: white;
+  border: none;
+  padding: 0.55rem 1.2rem;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.btn-primary:disabled { opacity: 0.5; cursor: not-allowed; }
+
+/* Chat */
+.messages { display: flex; flex-direction: column; gap: 0.7rem; max-height: 420px; overflow-y: auto; }
+.empty { color: var(--muted); font-style: italic; }
+.bubble { padding: 0.6rem 0.9rem; border-radius: 10px; max-width: 85%; }
+.bubble-role { font-size: 0.72rem; opacity: 0.7; margin-bottom: 0.25rem; }
+.bubble-text { white-space: pre-wrap; font-size: 0.92rem; }
+.bubble-user { background: var(--accent); align-self: flex-end; }
+.bubble-assistant { background: #334155; align-self: flex-start; }
+.bubble-blocked { background: rgba(245, 158, 11, 0.18); border: 1px solid var(--warning); align-self: flex-start; }
+
+/* Panel de ataques */
+.attack .hint { color: var(--muted); font-size: 0.82rem; margin-top: -0.4rem; }
+.accordion { border-top: 1px solid #334155; }
+.accordion-head {
+  width: 100%;
+  text-align: left;
+  background: none;
+  border: none;
+  color: var(--text);
+  padding: 0.7rem 0;
+  font-size: 0.92rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+.accordion-body { padding-bottom: 0.7rem; }
+.desc { color: var(--muted); font-size: 0.82rem; margin: 0 0 0.6rem; }
+.payload {
+  display: flex;
+  gap: 0.6rem;
+  align-items: flex-start;
+  background: var(--bg);
+  border-radius: 8px;
+  padding: 0.5rem 0.6rem;
+  margin-bottom: 0.5rem;
+}
+.payload-text { font-size: 0.82rem; flex: 1; color: var(--text); }
+.btn-mini {
+  background: var(--danger);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 0.3rem 0.7rem;
+  font-size: 0.78rem;
+  cursor: pointer;
+  white-space: nowrap;
+}

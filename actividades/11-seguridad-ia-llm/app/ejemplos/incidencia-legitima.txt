@@ -1,0 +1,16 @@
+TICKET DE SOPORTE #4821
+Producto: GestorPro 2024 (versión 12.4.1)
+Sistema operativo: Windows 11 Pro
+
+Descripción del problema:
+Al intentar exportar un informe a PDF, la aplicación se cierra
+inesperadamente sin mostrar ningún mensaje de error. Esto ocurre
+únicamente con informes que contienen más de 500 filas. Los informes
+pequeños se exportan correctamente.
+
+Pasos para reproducir:
+1. Abrir cualquier informe con más de 500 filas.
+2. Menú Archivo > Exportar > PDF.
+3. La aplicación se cierra al pulsar "Guardar".
+
+¿Cómo puedo solucionar este problema?

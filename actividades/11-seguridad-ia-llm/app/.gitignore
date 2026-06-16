@@ -1,0 +1,10 @@
+# Dependencias y artefactos que NO se versionan
+node_modules/
+dist/
+.venv/
+__pycache__/
+*.pyc
+
+# Configuración local con la URL de Ngrok (¡nunca subir!)
+.env
+backend/.env
