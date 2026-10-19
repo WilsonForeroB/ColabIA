@@ -26,6 +26,7 @@ actividades/
 | `actividades/01-ollama-rag/` | LLMs locales con Ollama + RAG con LangChain |
 | `actividades/02-web-search-rag/` | RAG multi-agente con búsqueda web y Gradio |
 | `actividades/11-seguridad-ia-llm/` | Seguridad en IA: app React + FastAPI vulnerable y defendida |
+| `actividades/12-gradio-para-frontend/` | Gradio para perfiles frontend: componentes, layout, eventos y CSS |
 
 ## Principio de diseño
 
