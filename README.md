@@ -21,6 +21,7 @@ Repositorio de actividades para un curso de **Inteligencia Artificial** usando G
 | 10 | [MCP Avanzado: Tools, Prompts, Sampling y Elicitation](actividades/10-mcp-claude-sdk/) | Avanzado | 120–150 min |
 | 11 | [Seguridad en Entornos de IA (React + FastAPI)](actividades/11-seguridad-ia-llm/) | Avanzado | 120–150 min |
 | 12 | [Gradio para Desarrolladores Frontend](actividades/12-gradio-para-frontend/) | Básico | 60–90 min |
+| 13 | [Python y Google Colab desde Cero](actividades/13-python-colab-basico/) ⭐ *empieza aquí si no programas* | Básico | 90–120 min |
 
 ---
 

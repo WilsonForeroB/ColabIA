@@ -27,6 +27,7 @@ actividades/
 | `actividades/02-web-search-rag/` | RAG multi-agente con búsqueda web y Gradio |
 | `actividades/11-seguridad-ia-llm/` | Seguridad en IA: app React + FastAPI vulnerable y defendida |
 | `actividades/12-gradio-para-frontend/` | Gradio para perfiles frontend: componentes, layout, eventos y CSS |
+| `actividades/13-python-colab-basico/` | Nivelación: Colab y Python desde cero (recomendada antes de las demás) |
 
 ## Principio de diseño
 
