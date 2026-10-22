@@ -8,6 +8,7 @@ Repositorio de actividades para un curso de **Inteligencia Artificial** usando G
 
 | # | Actividad | Nivel | Duración |
 |---|-----------|-------|----------|
+
 | 00 | [Servidor Colab](actividades/00-servidor-colab/) | Básico | 30 min |
 | 01 | [LLMs Locales con Ollama + RAG con LangChain](actividades/01-ollama-rag/) | Intermedio | 60–90 min |
 | 02 | [RAG Multi-Agente con Búsqueda Web y Gradio](actividades/02-web-search-rag/) | Intermedio | 60–90 min |
@@ -22,6 +23,7 @@ Repositorio de actividades para un curso de **Inteligencia Artificial** usando G
 | 11 | [Seguridad en Entornos de IA (React + FastAPI)](actividades/11-seguridad-ia-llm/) | Avanzado | 120–150 min |
 | 12 | [Gradio para Desarrolladores Frontend](actividades/12-gradio-para-frontend/) | Básico | 60–90 min |
 | 13 | [Python y Google Colab desde Cero](actividades/13-python-colab-basico/) ⭐ *empieza aquí si no programas* | Básico | 90–120 min |
+
 
 ---
 
