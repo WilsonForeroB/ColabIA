@@ -29,6 +29,7 @@ actividades/
 | `actividades/12-gradio-para-frontend/` | Gradio para perfiles frontend: componentes, layout, eventos y CSS |
 | `actividades/13-python-colab-basico/` | Nivelación: Colab y Python desde cero (recomendada antes de las demás) |
 | `actividades/14-rag-hibrido-reranking/` | RAG híbrido: bge-m3 + BM25, fusión RRF, reranker bge-reranker-v2-m3 y llama3.2 |
+| `actividades/15-modelos-multimodales/` | Multimodal: tokenizador visual (parches CLIP ViT), gemma3 con imágenes, Whisper y vídeo por fotogramas clave |
 
 ## Principio de diseño
 

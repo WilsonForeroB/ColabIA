@@ -24,6 +24,7 @@ Repositorio de actividades para un curso de **Inteligencia Artificial** usando G
 | 12 | [Gradio para Desarrolladores Frontend](actividades/12-gradio-para-frontend/) | Básico | 60–90 min |
 | 13 | [Python y Google Colab desde Cero](actividades/13-python-colab-basico/) ⭐ *empieza aquí si no programas* | Básico | 90–120 min |
 | 14 | [RAG Híbrido con Reranking (BM25 + Embeddings + RRF)](actividades/14-rag-hibrido-reranking/) | Avanzado | 90–120 min |
+| 15 | [Modelos Multimodales: imagen, audio y vídeo](actividades/15-modelos-multimodales/) | Intermedio–Avanzado | 100–130 min |
 
 
 ---
