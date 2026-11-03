@@ -28,6 +28,7 @@ actividades/
 | `actividades/11-seguridad-ia-llm/` | Seguridad en IA: app React + FastAPI vulnerable y defendida |
 | `actividades/12-gradio-para-frontend/` | Gradio para perfiles frontend: componentes, layout, eventos y CSS |
 | `actividades/13-python-colab-basico/` | Nivelación: Colab y Python desde cero (recomendada antes de las demás) |
+| `actividades/14-rag-hibrido-reranking/` | RAG híbrido: bge-m3 + BM25, fusión RRF, reranker bge-reranker-v2-m3 y llama3.2 |
 
 ## Principio de diseño
 
