@@ -30,6 +30,8 @@ actividades/
 | `actividades/13-python-colab-basico/` | Nivelación: Colab y Python desde cero (recomendada antes de las demás) |
 | `actividades/14-rag-hibrido-reranking/` | RAG híbrido: bge-m3 + BM25, fusión RRF, reranker bge-reranker-v2-m3 y llama3.2 |
 | `actividades/15-modelos-multimodales/` | Multimodal: tokenizador visual (parches CLIP ViT), gemma3 con imágenes, Whisper y vídeo por fotogramas clave |
+| `actividades/16-cuantizacion-vllm/` | Cuantización con vLLM: bitsandbytes, AWQ del Hub, W8A8 (SmoothQuant + GPTQ) y W4A16 (GPTQ) con LLM Compressor; arena Gradio original vs cuantizado |
+| `actividades/17-fine-tuning-qlora/` | Fine-tuning QLoRA con TRL + PEFT: clasificador de tickets a JSON, evaluación antes/después, adaptador y fusión |
 
 ## Principio de diseño
 
