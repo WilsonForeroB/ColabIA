@@ -32,6 +32,7 @@ actividades/
 | `actividades/15-modelos-multimodales/` | Multimodal: tokenizador visual (parches CLIP ViT), gemma3 con imágenes, Whisper y vídeo por fotogramas clave |
 | `actividades/16-cuantizacion-vllm/` | Cuantización con vLLM: bitsandbytes, AWQ del Hub, W8A8 (SmoothQuant + GPTQ) y W4A16 (GPTQ) con LLM Compressor; arena Gradio original vs cuantizado |
 | `actividades/17-fine-tuning-qlora/` | Fine-tuning QLoRA con TRL + PEFT: clasificador de tickets a JSON, evaluación antes/después, adaptador y fusión |
+| `actividades/18-agente-web-rag/` | Agente LangChain con búsqueda web (DuckDuckGo, tool calling) + RAG con FAISS sobre las páginas encontradas |
 
 ## Principio de diseño
 

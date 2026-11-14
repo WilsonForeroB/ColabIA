@@ -27,6 +27,7 @@ Repositorio de actividades para un curso de **Inteligencia Artificial** usando G
 | 15 | [Modelos Multimodales: imagen, audio y vídeo](actividades/15-modelos-multimodales/) | Intermedio–Avanzado | 100–130 min |
 | 16 | [Cuantización de LLMs con vLLM](actividades/16-cuantizacion-vllm/) | Avanzado | 110–130 min |
 | 17 | [Fine-tuning con QLoRA](actividades/17-fine-tuning-qlora/) | Avanzado | 110–130 min |
+| 18 | [Agente de Búsqueda Web + RAG sobre las páginas encontradas](actividades/18-agente-web-rag/) | Intermedio–Avanzado | 90–120 min |
 
 
 ---
